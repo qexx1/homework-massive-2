@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        task1();
     }
     public static int[] generateRandomArray() {
         java.util.Random random = new java.util.Random();
@@ -51,8 +52,8 @@ public class Main {
         char[] reverseFullName = {'n','a','v','I',' ', 'v', 'o', 'n','a','v','I'};
         char a = 0;
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
-            a += reverseFullName[i];
-            System.out.println(a);
+            a = reverseFullName[i];
+            System.out.print(a);
         }
     }
 }
